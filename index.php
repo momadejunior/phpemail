@@ -6,8 +6,8 @@ $mail = new PHPMailer;
 $mail->isSMTP();                            // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';              // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                     // Enable SMTP authentication
-$mail->Username = 'momadejunior584@gmail.com'; // your email id
-$mail->Password = 'Neu$a1994'; // your password
+$mail->Username = 'teu-email'; // your email id
+$mail->Password = 'tuapassword'; // your password
 $mail->SMTPSecure = 'tls';                  
 $mail->Port = 587;     //587 is used for Outgoing Mail (SMTP) Server.
 $mail->setFrom('momadejunior584@gmail.com', 'Momade Junior');
